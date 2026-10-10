@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# generated from the root index.html by scripts/sync-home.mjs
+public/index.html
+
+# local secrets and data
+.env
+.env.local
+.env.*.local
+.data/
+
+.DS_Store
+.vercel
